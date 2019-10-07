@@ -1,37 +1,40 @@
 ---
 layout: splash
+author_profile: true
 permalink: /
 header:
   overlay_color: "#5e616c"
+  overlay_filter: 0.5
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
+    - label: "<i class='fas fa-address-card'></i> About"
+      url: "/about/"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.17.0">Latest release v4.17.0</a></small>
+  Thermal Engineer.  Focus on consumer, datacenter, and custom electronic
+  hardware.
+
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+    alt: "Content"
+    title: "Content - Personal Research"
+    excerpt: "Click here to read the latest blog content"
+    url: "/content/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+    btn_label: "Content"
+  - image_path: /assets/images/bio-photo.png
+    alt: "About"
+    title: "About"
+    excerpt: "Learn more about the author"
+    url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+    alt: "Github Page"
+    title: "Github Page"
+    excerpt: ""
+    url: "https://github.com/echenelly/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Github"      
 ---
 
 {% include feature_row %}

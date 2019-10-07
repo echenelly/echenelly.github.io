@@ -15,7 +15,7 @@ excerpt: >
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "Content"
-    title: "Content - Personal Research"
+    title: "Content"
     excerpt: "Click here to read the latest blog content"
     url: "/content/"
     btn_class: "btn--primary"

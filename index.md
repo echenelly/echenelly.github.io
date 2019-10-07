@@ -10,8 +10,7 @@ header:
     - label: "<i class='fas fa-address-card'></i> About"
       url: "/about/"
 excerpt: >
-  Thermal Engineer.  Focus on consumer, datacenter, and custom electronic
-  hardware.
+  Thermal Engineer.  Focused on electronic hardware design.
 
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
